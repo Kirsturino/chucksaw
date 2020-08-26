@@ -25,7 +25,7 @@ gameRestartLength = 180;
 
 winner = noone;
 gameWinner = noone;
-pointsToWin = 2;
+pointsToWin = 10;
 
 //UI Graphics
 clearAlpha = 0;

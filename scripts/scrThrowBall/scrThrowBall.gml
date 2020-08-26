@@ -13,9 +13,9 @@ if (activeBall != noone)
 				
 			//Increase kick force when flicking ball
 			var hold = 1 - other.holdTimer / holdTimeMax;
-			other.kickForce = clamp(max(previousDist / 1.5, hold * other.maxKickForce * 1.1), other.minKickForce, other.maxKickForce);
+			other.kickForce = clamp(max(previousDist * 2, hold * other.maxKickForce * 1.1), other.minKickForce, other.maxKickForce);
 			spd += other.kickForce;
-			
+			show_debug_message(previousDist * 2);
 			scrChooseHomingTarget();
 			
 			//FX
