@@ -114,3 +114,17 @@ part_type_gravity(global.sawAmbientPart,0,270);
 part_type_orientation(global.sawAmbientPart,0,0,0,0,1);
 part_type_blend(global.sawAmbientPart,false);
 part_type_life(global.sawAmbientPart,60, 120);
+
+//Bully particles
+global.bullyPart = part_type_create();
+part_type_shape(global.bullyPart,pt_shape_line);
+part_type_size(global.bullyPart,0.4,0.6,-0.03,0);
+part_type_scale(global.bullyPart,1,1);
+part_type_color1(global.bullyPart,global.colWhite);
+part_type_alpha1(global.bullyPart,1);
+part_type_speed(global.bullyPart,2,4,-0.003,0);
+part_type_direction(global.bullyPart,0,359,0,0);
+part_type_gravity(global.bullyPart,0,270);
+part_type_orientation(global.bullyPart,0,0,0,0,1);
+part_type_blend(global.bullyPart,false);
+part_type_life(global.bullyPart,30, 60);

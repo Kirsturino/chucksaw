@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "15056f13-b512-4554-ae15-fe128f7023e0",
+            "Value": {
+                "id": "6e5c7780-7184-4cf2-ba88-04516d5e8756",
+                "resourcePath": "rooms\\rmStuckBetweenARock\\rmStuckBetweenARock.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "156fbb56-9b79-4709-93ef-591656e88404",
             "Value": {
                 "id": "b914d685-8584-4fe1-bc06-a110f68ab7f1",
@@ -255,6 +263,14 @@
             }
         },
         {
+            "Key": "27cff3f9-f184-4b56-8c3f-567eab52f6a4",
+            "Value": {
+                "id": "c298eb3b-4aa7-4fb5-be02-0a69382437b5",
+                "resourcePath": "rooms\\rmImpossibleToPlay\\rmImpossibleToPlay.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "286b54b0-ed5e-4f15-afa3-f69c67c1911a",
             "Value": {
                 "id": "16d6634b-618e-4163-9418-251ecf0f4e79",
@@ -292,6 +308,14 @@
                 "id": "92ec818e-39f9-49d7-a37c-55bb2d99f704",
                 "resourcePath": "sprites\\sSpawnPointBall\\sSpawnPointBall.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "31b418b5-515b-4946-9877-c6c1e2c4549e",
+            "Value": {
+                "id": "7f6fd6f4-3421-4750-a51b-68093185cc8e",
+                "resourcePath": "rooms\\rmIsland\\rmIsland.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -556,6 +580,14 @@
                 "id": "285060d5-b6d9-4f52-8151-7a7b67e33342",
                 "resourcePath": "sounds\\sndGottem\\sndGottem.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "65bf356a-bf8f-4852-b5b4-0ed2b7b5e0b7",
+            "Value": {
+                "id": "93f455c0-5dd9-477b-8d27-72f2b4c309d3",
+                "resourcePath": "rooms\\rmSmallPillar\\rmSmallPillar.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -831,6 +863,14 @@
             }
         },
         {
+            "Key": "a16480b8-4a6b-42d5-b7dd-ca08325a2096",
+            "Value": {
+                "id": "92825972-591f-4c02-9a73-3dc90802309a",
+                "resourcePath": "scripts\\scrCoyote\\scrCoyote.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a298c3ec-464a-40d6-b713-3cdcef4b4405",
             "Value": {
                 "id": "22c2c511-79cf-407d-81e6-82a04df13f1b",
@@ -980,6 +1020,22 @@
                 "id": "19e7aa04-87d7-47f6-ba8c-276d1e713146",
                 "resourcePath": "scripts\\scrSetZoom\\scrSetZoom.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "ba656476-a68c-403b-b9a9-bc26d2b145eb",
+            "Value": {
+                "id": "c5f6bc3e-1474-492a-b9ac-c5a3f683b360",
+                "resourcePath": "rooms\\rmRealIsland\\rmRealIsland.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "bbd7304b-5eff-46d3-9c8e-f6e8215f850e",
+            "Value": {
+                "id": "7ec377b9-7e95-4f23-86e8-d8d23f0ff437",
+                "resourcePath": "rooms\\rmBonk\\rmBonk.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -1167,6 +1223,14 @@
             }
         },
         {
+            "Key": "d59d69dc-d756-447f-a56b-d5b0506abd67",
+            "Value": {
+                "id": "4ef42b37-0a6b-4b89-805d-109915df8f61",
+                "resourcePath": "rooms\\rmWalkways\\rmWalkways.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "d70b9979-ea11-4710-9db5-e44db94787af",
             "Value": {
                 "id": "15a8a269-31c9-447b-b8b9-d09ec656569e",
@@ -1204,6 +1268,14 @@
                 "id": "ecdb2923-af0d-4519-acd3-1401ae139046",
                 "resourcePath": "views\\de1e3695-ba62-4f51-a13c-4a3201fb92ab.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e0afacb6-cf4d-47b0-ad02-d65990dc2ac3",
+            "Value": {
+                "id": "6882a8ec-7280-4d32-aa3a-7bffc8e05f7f",
+                "resourcePath": "rooms\\rmIslandVariant\\rmIslandVariant.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -1279,6 +1351,14 @@
             }
         },
         {
+            "Key": "f46dfcef-b6c3-476e-8301-773eeb79ba8d",
+            "Value": {
+                "id": "7dd30a3f-88a6-44d5-82db-582674e385c9",
+                "resourcePath": "scripts\\scrBonkPlayer\\scrBonkPlayer.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f67dce5b-702c-486e-b66e-e994f96b9e0f",
             "Value": {
                 "id": "46dfe17e-1adc-421c-88e0-b88735fc566b",
@@ -1336,6 +1416,8 @@
         "09bdcf40-a83a-4ee4-ada8-3ccd17508478",
         "bee6bee9-34bf-4331-a003-3ef0d6409c88",
         "2b203b60-c99b-4e0e-b677-12d1eab4db2d",
+        "f46dfcef-b6c3-476e-8301-773eeb79ba8d",
+        "a16480b8-4a6b-42d5-b7dd-ca08325a2096",
         "13dc5a0f-a765-4ece-84b2-c856eea6cf42",
         "47f14f5b-5765-4df0-a0f0-bd2762b2a410",
         "cf7cb682-4e30-4136-8411-d0b0253dc085",

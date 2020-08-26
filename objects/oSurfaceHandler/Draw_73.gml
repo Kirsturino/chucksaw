@@ -23,7 +23,7 @@ if (surface_exists(global.playerSurf))
 			//c = c_black;
 			//draw_circle_color(drawX + shakeX + 3, drawY + shakeY + 1, drawRadius + radShake, c, c, true);
 	
-			if (state == scrFalling) draw_set_alpha(alarm[3] / fallTimeMax);
+			if (state == scrFalling) draw_set_alpha(alarm[3] / fallingDeathTimer);
 			var c = color;
 			draw_circle_color(other.drawX + shakeX, other.drawY + shakeY, drawRadius + radShake, c, c, false);
 			draw_set_alpha(1);

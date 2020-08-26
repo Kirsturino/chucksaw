@@ -1,1 +1,5 @@
+scrInput();
+
 scrPlayerCollisionMovementFalling();
+
+scrCoyote();

@@ -65,10 +65,10 @@ heldY = y;
 heldDir = 0;
 
 fallingDeathTimer = 60;
-fallTimer = 0;
 fell = false;
 fallSpinSpeed = 5;
-#macro fallTimeMax 4
+
+#macro coyoteTime 24
 
 //Graphics
 playerSize = sprite_get_width(sPlayerHitBox) / 2;

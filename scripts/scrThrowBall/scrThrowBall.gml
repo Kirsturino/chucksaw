@@ -15,7 +15,6 @@ if (activeBall != noone)
 			var hold = 1 - other.holdTimer / holdTimeMax;
 			other.kickForce = clamp(max(previousDist * 2, hold * other.maxKickForce * 1.1), other.minKickForce, other.maxKickForce);
 			spd += other.kickForce;
-			show_debug_message(previousDist * 2);
 			scrChooseHomingTarget();
 			
 			//FX

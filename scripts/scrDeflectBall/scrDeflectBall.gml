@@ -4,7 +4,11 @@ var ball = instance_place(x, y, oBall);
 if (ball != noone || bufferedDash)
 {
 	if (bufferedDash) ball = activeBall;
-	if (ball.state == scrHeld && !bufferedDash) audio_play_sound(sndGottem, 0, false);
+	if (ball.state == scrHeld && !bufferedDash)
+	{
+		audio_play_sound(sndGottem, 0, false);
+		part_particles_create(global.partSystem, x, y, global.bullyPart, 10);
+	}
 	
 	with (ball)
 	{	
@@ -20,6 +24,7 @@ if (ball != noone || bufferedDash)
 		
 		
 		var dir = point_direction(other.x, other.y, other.x + other.hsp, other.y + other.vsp);
+		
 		//Change player direction
 		other.hsp = lengthdir_x(other.deflectRecoilAmount, dir + 180);
 		other.vsp = lengthdir_y(other.deflectRecoilAmount, dir + 180);

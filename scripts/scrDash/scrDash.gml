@@ -4,6 +4,8 @@ scrPlayerCollisionMovementDash();
 
 scrDeflectBall();
 
+scrBonkPlayer();
+
 scrBallControlTimers();
 
 scrDashParticles();
