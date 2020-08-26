@@ -26,12 +26,25 @@ draw_set_halign(fa_left);
 var c = c_black;
 draw_set_alpha(0.5);
 draw_line_width_color(-margin, joinTextY, viewWidth + margin, joinTextY, 32, c, c);
+draw_line_width_color(-margin, joinTextY - 64, viewWidth + margin, joinTextY - 64, 64, c, c);
 draw_set_alpha(1);
 
 draw_set_halign(fa_center);
 draw_set_valign(fa_center);
 c = global.colWhite;
-scrColorTextShadow(viewWidth / 2, joinTextY + 2, "Press A to join", c);
+
+scrColorTextShadow(viewWidth / 2, joinTextY + 2, "Press   to join", c);
+
+c = global.playerColours[0];
+scrColorTextShadow(viewWidth / 2 - 16, joinTextY + 2 + scrWave(-2, 2, 2, 0), "A", c);
+
+c = global.playerColours[0];
+draw_set_font(fLogo);
+scrColorTextShadow(viewWidth / 2, joinTextY - 70, "chucksaw", c);
+
+c = global.colWhite;
+draw_set_font(fGUISmall);
+scrColorTextShadow(viewWidth / 2, joinTextY - 40, "By Kirstu", c);
 
 if (readyToStart)
 {

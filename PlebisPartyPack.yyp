@@ -655,6 +655,14 @@
             }
         },
         {
+            "Key": "7ba2fbfe-2699-48fc-ac5d-a3530a4cfbf2",
+            "Value": {
+                "id": "3e1231da-f13d-4772-a6c2-6d93bc5b526f",
+                "resourcePath": "rooms\\rmHuge\\rmHuge.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "7c51a855-7c1f-42d6-a65e-da8a43fe295e",
             "Value": {
                 "id": "b0064052-4411-486f-a6e8-7b11e20c044d",
@@ -716,6 +724,14 @@
                 "id": "0a097e79-ef9e-4366-bc20-7d377ecae5a7",
                 "resourcePath": "objects\\oGameManager\\oGameManager.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8b21686c-6797-4922-8aa7-83809f694761",
+            "Value": {
+                "id": "efce3a2b-13c7-4a85-aa53-4fcfe920e3fd",
+                "resourcePath": "fonts\\fLogo\\fLogo.yy",
+                "resourceType": "GMFont"
             }
         },
         {

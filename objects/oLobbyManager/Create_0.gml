@@ -2,7 +2,7 @@ startButton = gp_start;
 readyToStart = false;
 
 margin = 8;
-joinTextYStart = viewHeight / 2;
+joinTextYStart = viewHeight / 4 * 3;
 joinTextYJoining = viewHeight / 12;
 joinTextYFinal = -viewHeight;
 joinTextY = 0;

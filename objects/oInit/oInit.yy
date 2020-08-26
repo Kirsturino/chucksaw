@@ -255,6 +255,20 @@
             "value": "$FF6F3629",
             "varName": "colNavy",
             "varType": 7
+        },
+        {
+            "id": "e5a952b9-062c-449f-928a-d766ffc28b8b",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "$FF64B738",
+            "varName": "colGreen",
+            "varType": 7
         }
     ],
     "solid": false,

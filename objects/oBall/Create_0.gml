@@ -32,7 +32,7 @@ sizeIncreaseMultiplier = 1.05;
 previousX = x;
 previousY = y;
 previousDist = 0;
-previousLength = 2;
+previousLength = 1;
 alarm[0] = previousLength; 
 
 growPitch = 1;

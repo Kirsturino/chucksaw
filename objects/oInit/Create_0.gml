@@ -17,7 +17,6 @@ global.windowScale = 3;
 //Meta stuff
 global.debugging = false;
 global.firstTime = true;
-global.destination = rmLobby;
 
 //Player colors
 global.playerColours = array_create(4);
@@ -39,10 +38,11 @@ global.colPurple = colPurple;
 global.colPink = colPink;
 global.colBlue = colBlue;
 global.colNavy = colNavy;
+global.colGreen = colGreen;
 
 //UI Stuff
 global.UIShadow = 0;
-global.barColor = c_black;
+global.barColor = player1Colour;
 
 //Init surfaces
 global.ballSurf = noone;

@@ -28,8 +28,6 @@ for (var i = 0; i < global.gpNum; i++;)
 					{
 						global.masterController = controller;
 					}
-					
-					scrSetCinemaBars(random_range(-2, 2), 4, 0.1, aliveColor);
 				}
 				
 				//Add player controller to list
