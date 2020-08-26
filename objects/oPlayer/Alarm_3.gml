@@ -1,0 +1,1 @@
+scrToDead();

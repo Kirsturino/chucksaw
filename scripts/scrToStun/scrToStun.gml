@@ -1,0 +1,3 @@
+stunTimer = stunTimerMax;
+
+state = scrStunned;
