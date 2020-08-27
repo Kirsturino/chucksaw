@@ -68,7 +68,8 @@ fallingDeathTimer = 60;
 fell = false;
 fallSpinSpeed = 5;
 
-#macro coyoteTime 24
+#macro coyoteTime 8
+coyoteTimer = 0;
 
 //Graphics
 playerSize = sprite_get_width(sPlayerHitBox) / 2;

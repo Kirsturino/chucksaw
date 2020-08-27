@@ -1,4 +1,7 @@
 /// @description Homing jank
+
+if (target != noone && target != undefined) exit;
+
 //This is megajank to prevent crashes and saw randomly not homing in
 var size = ds_list_size(global.players);
 var ballDir = point_direction(x, y, x + hsp, y + vsp);

@@ -12,7 +12,7 @@ if (surface_exists(global.lavaSurf))
 		
 		draw_rectangle_color(bbox_left + offsetX, bbox_top + offsetY, bbox_right + offsetX, bbox_bottom + offsetY, c2, c2, c2, c2, false);
 		draw_rectangle_color(bbox_left + offsetX, bbox_top + offsetY, bbox_right + offsetX, bbox_top + blockSize + offsetY, c, c, c, c, false);
-		draw_rectangle_color(bbox_left + offsetX, bbox_top + blockSize + offsetY, bbox_right + offsetX, bbox_top + blockSize * 2 + offsetY, c, c, c2, c2, false);
+		draw_rectangle_color(bbox_left + offsetX, bbox_top + blockSize + offsetY, bbox_right + offsetX, bbox_top + blockSize * 1.5 + offsetY, c, c, c2, c2, false);
 	}
 	
 	surface_reset_target();

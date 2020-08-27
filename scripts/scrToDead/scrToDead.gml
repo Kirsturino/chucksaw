@@ -9,20 +9,7 @@ var size = ds_list_size(global.players);
 
 if (size == 1 && oGameManager.gameState == game_states.playing)
 {
-	oGameManager.gameState = game_states.over;
-	oGameManager.winner = global.players[| 0];
-	
-	//Add score to survivor
-	global.playerScores[| global.players[| 0].number - 1]++;
-	
-	scrCheckWinner();
-	
-	//Restart game
-	oGameManager.alarm[0] = oGameManager.gameRestartLength;
-	
-	scrResetCinemaBars();
-	
-	audio_play_sound(sndUIEffect2, 0, false);
+	oGameManager.alarm[4] = 60;
 }
 
 //Death FX

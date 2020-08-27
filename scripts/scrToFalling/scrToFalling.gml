@@ -1,7 +1,7 @@
 alarm[3] = fallingDeathTimer;
-alarm[4] = coyoteTime;
+
 committedSeppuku = true;
 fell = true;
-
+audio_play_sound(sndFalling, 0, false);
 
 state = scrFalling;

@@ -215,14 +215,6 @@
             }
         },
         {
-            "Key": "1d37768a-f6d1-40a7-a300-1ece86231ba2",
-            "Value": {
-                "id": "1c6beef5-3865-487c-ab75-8dbc8547de7f",
-                "resourcePath": "sounds\\mGame\\mGame.yy",
-                "resourceType": "GMSound"
-            }
-        },
-        {
             "Key": "1e59cab2-884c-4856-ae6b-6ee1c3a70bd0",
             "Value": {
                 "id": "d8018b38-49d6-4d36-b04c-a5674bb8854d",
@@ -660,14 +652,6 @@
                 "id": "d99bc588-8807-4b08-b33b-810591f0581d",
                 "resourcePath": "fonts\\fGUISmall\\fGUISmall.yy",
                 "resourceType": "GMFont"
-            }
-        },
-        {
-            "Key": "763dd6ac-eb89-44fb-8ef4-d7fb47a263ba",
-            "Value": {
-                "id": "66a9439c-aea0-4d3d-aadb-9b9bf7903220",
-                "resourcePath": "sounds\\mLobby\\mLobby.yy",
-                "resourceType": "GMSound"
             }
         },
         {

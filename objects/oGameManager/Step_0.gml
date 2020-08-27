@@ -20,7 +20,9 @@ switch (gameState)
 		
 		if (alarm[0] == 20 && gameWinner == noone)
 		{
-			scrSetCinemaBars(0, viewHeight / 2, 0.3, winner.aliveColor);
+			if (winner != noone) scrSetCinemaBars(0, viewHeight / 2, 0.3, winner.aliveColor);
+			else scrSetCinemaBars(0, viewHeight / 2, 0.3, global.barColor);
+			
 			audio_play_sound(sndCloseCurtain, 0, false);
 			scrSetShake(50, 20);
 		} else if (alarm[0] > 20) scrResetCinemaBars();

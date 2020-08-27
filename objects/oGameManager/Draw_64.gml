@@ -18,8 +18,15 @@ switch (gameState)
 		draw_line_width_color(-margin, 39, (viewWidth + margin) * barY, 39, 32, c_black, c_black);
 		draw_set_alpha(1);
 		
-		var c = global.playerColours[winner.number - 1];
-		scrColorTextShadow(viewWidth / 2 * barY, 40, "Player " + string(winner.number) + " survives!", c);
+		if (winner != noone)
+		{
+			var c = global.playerColours[winner.number - 1];
+			scrColorTextShadow(viewWidth / 2 * barY, 40, "Player " + string(winner.number) + " survives!", c);
+		} else
+		{
+			var c = global.colWhite;
+			scrColorTextShadow(viewWidth / 2 * barY, 40, "No one survives!", c);
+		}
 
 	
 		//Show score
@@ -27,7 +34,7 @@ switch (gameState)
 		draw_set_font(fGUISmall);
 		
 		//Get highest score
-		var scr = 0;
+		var scr = -1;
 		
 		for (var i = 0; i < size; ++i)
 		{
@@ -38,21 +45,28 @@ switch (gameState)
 			}
 		}
 		
-		if (ds_list_find_value(global.playerScores, winner.number - 1) == ds_list_find_value(global.playerScores, leader)) leader = winner.number - 1;
+		if (winner != noone)
+		{
+			if (ds_list_find_value(global.playerScores, winner.number - 1) == ds_list_find_value(global.playerScores, leader)) 
+			{
+				leader = winner.number - 1;
+			}
+		}
 		
 		var scr = string(scr);
 		
 		draw_set_color(global.colWhite);
 		var winLineY = viewHeight - 101;
-			
-		draw_set_alpha(1);
-		draw_line_width_color(-margin, winLineY, (viewWidth + margin) * barY, winLineY, 2, winner.aliveColor, winner.aliveColor);
-		draw_set_alpha(1);
+		
+		if (winner != noone) c = winner.aliveColor;
+		else c = global.colWhite;
+		
+		draw_line_width_color(-margin, winLineY, (viewWidth + margin) * barY, winLineY, 2, c, c);
 			
 		for (var i = 0; i < size; ++i)
 		{
 			var barHeight = viewHeight - 100 * (global.playerScores[| i] / pointsToWin) * barY;
-			barHeight = min(max(barHeight, viewHeight - 100), viewHeight - 4)
+			barHeight = max(barHeight, viewHeight - 100)
 		
 			c = c_black;
 			draw_line_width_color(viewWidth / (size + 1) * (i + 1) + global.UIShadow, viewHeight + margin, viewWidth / (size + 1) * (i + 1) + global.UIShadow, barHeight, 32, c, c);
