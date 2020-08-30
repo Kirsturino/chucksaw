@@ -23,6 +23,10 @@ dashControl = 0.07;
 triDir = 0;
 lastHAxis = 0;
 lastVAxis = 0;
+deflectRecoilAmount = 6;
+stunnedFriction = 0.15;
+bonkRecoilAmount = 8;
+randDir = 0;
 
 //Ball catching and throwing
 catchRadius = 32;
@@ -39,9 +43,6 @@ wantsToCatch = false;
 canCatch = true;
 
 committedSeppuku = false;
-
-deflectRecoilAmount = 6;
-stunnedFriction = 0.15;
 
 //Timers
 #macro catchBufferLength 20
@@ -89,5 +90,5 @@ deflectCircleRadius = 0;
 deflectWipeCircleRadius = 0;
 deflectCircleRadius2 = 0;
 deflectWipeCircleRadius2 = 0;
-deflectX = 0;
-deflectY = 0;
+deflectX = x;
+deflectY = y;

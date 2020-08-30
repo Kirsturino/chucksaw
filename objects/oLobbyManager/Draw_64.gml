@@ -25,8 +25,11 @@ draw_set_halign(fa_left);
 
 var c = c_black;
 draw_set_alpha(0.5);
-draw_line_width_color(-margin, joinTextY, viewWidth + margin, joinTextY, 32, c, c);
-draw_line_width_color(-margin, joinTextY - 64, viewWidth + margin, joinTextY - 64, 64, c, c);
+
+if (global.firstTime) draw_line_width_color(-margin, joinTextY, viewWidth + margin, joinTextY, 32, c, c);
+else draw_line_width_color(-margin, joinTextY + 16, viewWidth + margin, joinTextY + 16, 64, c, c);
+
+draw_line_width_color(-margin, joinTextY - 64, viewWidth + margin, joinTextY - 64, 96, c, c);
 draw_set_alpha(1);
 
 draw_set_halign(fa_center);
@@ -45,6 +48,11 @@ scrColorTextShadow(viewWidth / 2, joinTextY - 70, "chucksaw", c);
 c = global.colWhite;
 draw_set_font(fGUISmall);
 scrColorTextShadow(viewWidth / 2, joinTextY - 40, "By Kirstu", c);
+
+if (!global.firstTime)
+{
+	scrColorTextShadow(viewWidth / 2, joinTextY  + 32, "Or press Esc to quit game", c);
+}
 
 if (readyToStart)
 {

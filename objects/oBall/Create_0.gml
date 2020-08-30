@@ -27,8 +27,12 @@ target = noone;
 targ = noone;
 chosenTarg = noone;
 homingJankTimer = 180;
+dirDiff = 9999;
+ballDir = 0;
+size = 0;
+targDir = 0;
 
-sizeIncreaseMultiplier = 1.05;
+sizeIncreaseMultiplier = 1.08;
 previousX = x;
 previousY = y;
 previousDist = 0;

@@ -22,7 +22,12 @@
         "bbd7304b-5eff-46d3-9c8e-f6e8215f850e",
         "ba656476-a68c-403b-b9a9-bc26d2b145eb",
         "15056f13-b512-4554-ae15-fe128f7023e0",
-        "e0afacb6-cf4d-47b0-ad02-d65990dc2ac3"
+        "e0afacb6-cf4d-47b0-ad02-d65990dc2ac3",
+        "3234c2ce-8c0f-4980-932e-3e1369d11631",
+        "d59e5c3f-ba56-433c-829e-bc5583e27836",
+        "131bd81e-2109-4400-90e0-a9b261e51f7a",
+        "b4f97cd6-a5dc-404c-bae0-da8cd59ed33c",
+        "4cc61548-ae86-481b-b45b-e61c5fb36995"
     ],
     "filterType": "GMFolder",
     "folderName": "696f653e-4c39-4bfe-88fa-2baaa7927a70",

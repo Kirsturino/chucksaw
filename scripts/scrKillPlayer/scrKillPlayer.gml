@@ -5,11 +5,16 @@ if (player != noone && player != owner && owner != noone)
 	{
 		if (state = scrAlive || state == scrStunned)
 		{
-			//if (oGameManager.gameState == game_states.playing)
-			//{
-			//	//Add score to player who owned the ball when killing someone
-			//	global.playerScores[| other.owner.number - 1]++;
-			//}
+			if (activeBall != noone) 
+			{
+				with (activeBall)
+				{
+					owner = noone;
+					colorTo = global.colLightGrey;
+					scrToFree();
+				}
+				activeBall = noone; 
+			}
 			
 			//FX
 			killDir = point_direction(other.x + other.hsp, other.y + other.vsp, other.x, other.y);

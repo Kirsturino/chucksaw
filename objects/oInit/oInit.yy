@@ -70,7 +70,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "$FFC328CC",
+            "value": "$FFDC44E5",
             "varName": "player3Colour",
             "varType": 7
         },

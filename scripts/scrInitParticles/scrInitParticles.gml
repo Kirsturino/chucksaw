@@ -48,8 +48,8 @@ part_type_life(global.deathPart,360, 360);
 //Player ambient death particles
 global.deathPart2 = part_type_create();
 part_type_shape(global.deathPart2,pt_shape_disk);
-part_type_size(global.deathPart2,0.1,0.2,-0.001,0);
-part_type_speed(global.deathPart2,4,6,-0.04,0);
+part_type_size(global.deathPart2,0.1,0.2,-0.002,0);
+part_type_speed(global.deathPart2,4,8,-0.04,0);
 part_type_scale(global.deathPart2,1,1);
 part_type_color1(global.deathPart2,global.colWhite);
 part_type_alpha1(global.deathPart2,1);

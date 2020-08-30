@@ -25,5 +25,7 @@ for (var i = 0; i < playerAmount ; ++i)
 		{
 			ds_list_add(global.playerScores, 0);
 		}
+		
+		alarm[5] = number * 20;
 	}
 }

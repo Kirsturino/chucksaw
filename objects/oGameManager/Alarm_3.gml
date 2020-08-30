@@ -1,4 +1,4 @@
 /// @description Go back to lobby
 ds_list_clear(global.playerScores);
-ds_list_clear(global.levels);
+global.masterController = noone;
 room_goto(rmLobby);

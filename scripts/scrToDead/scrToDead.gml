@@ -112,8 +112,10 @@ if (!fell)
 	alarm[1] = deathFXLength;
 }
 
-//Reset controller vibration
+//Set controller vibration
 gamepad_set_vibration(controller, 1, 1);
 gamepad_set_color(controller, c_red);
+
+alarm[4] = 8;
 
 state = scrDead();

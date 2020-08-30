@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "131bd81e-2109-4400-90e0-a9b261e51f7a",
+            "Value": {
+                "id": "bb833aea-3ba0-4bd3-b8fb-673875464ab2",
+                "resourcePath": "rooms\\rmUneven\\rmUneven.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "1352c800-a258-4c9d-8060-c60232ed1903",
             "Value": {
                 "id": "2cc4e51e-a256-41ba-9443-646139e66855",
@@ -311,6 +319,14 @@
             }
         },
         {
+            "Key": "3234c2ce-8c0f-4980-932e-3e1369d11631",
+            "Value": {
+                "id": "3458f248-a717-4017-a345-ba6629cceba6",
+                "resourcePath": "rooms\\rmAdventure\\rmAdventure.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "3305bd98-6b1b-4ebc-ab6c-4a5886956507",
             "Value": {
                 "id": "756d90ce-25e8-44cf-9104-ab3b24cdd3d2",
@@ -492,6 +508,14 @@
                 "id": "eaa83d26-529c-4584-9cc3-e4f8b6e96196",
                 "resourcePath": "objects\\oCollisionPlayerOnly\\oCollisionPlayerOnly.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4cc61548-ae86-481b-b45b-e61c5fb36995",
+            "Value": {
+                "id": "3379170b-ccdf-4e85-81cd-2669a159bfe3",
+                "resourcePath": "rooms\\rmNiceBlock\\rmNiceBlock.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -967,6 +991,14 @@
             }
         },
         {
+            "Key": "b4f97cd6-a5dc-404c-bae0-da8cd59ed33c",
+            "Value": {
+                "id": "5abd8d74-e187-410d-ae17-95f7280f060a",
+                "resourcePath": "rooms\\rmSpiral\\rmSpiral.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "b51762f0-aa6e-4e88-ab85-8854da208354",
             "Value": {
                 "id": "d2fd5dce-492f-4c9c-b097-2ef692de876b",
@@ -1211,6 +1243,14 @@
             "Value": {
                 "id": "4ef42b37-0a6b-4b89-805d-109915df8f61",
                 "resourcePath": "rooms\\rmWalkways\\rmWalkways.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "d59e5c3f-ba56-433c-829e-bc5583e27836",
+            "Value": {
+                "id": "5fb44504-8ffa-454b-aa50-fa66805d845c",
+                "resourcePath": "rooms\\rmCornerstones\\rmCornerstones.yy",
                 "resourceType": "GMRoom"
             }
         },

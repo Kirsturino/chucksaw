@@ -7,6 +7,7 @@ if (ball != noone || bufferedDash)
 	if (ball.state == scrHeld && !bufferedDash)
 	{
 		audio_play_sound(sndGottem, 0, false);
+		part_type_color1(global.bullyPart, global.colWhite);
 		part_particles_create(global.partSystem, x, y, global.bullyPart, 10);
 	}
 	
@@ -21,7 +22,6 @@ if (ball != noone || bufferedDash)
 			holdTimer = holdTimeMax;
 			gamepad_set_vibration(controller, 0, 0);
 		}
-		
 		
 		var dir = point_direction(other.x, other.y, other.x + other.hsp, other.y + other.vsp);
 		

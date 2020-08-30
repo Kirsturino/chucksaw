@@ -1,4 +1,3 @@
-
 switch (gameState)
 {
 	case game_states.start:

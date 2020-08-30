@@ -1,5 +1,5 @@
 //Check if we fall in pits
-if (place_meeting(x, y, oCollisionPlayerOnly))
+if (collision_point(x, y, oCollisionPlayerOnly, false, false) != noone)
 {
 	coyoteTimer = scrApproach(coyoteTimer, coyoteTime, 1);
 } else

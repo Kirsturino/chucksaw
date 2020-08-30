@@ -22,7 +22,7 @@ if (gameState == game_states.declare_winner)
 		winnerTextY = lerp(winnerTextY, viewHeight * 1.5, 0.1);
 	}
 		
-	scrColorTextShadow(viewWidth / 2, winnerTextY, "Player " + string(winner.number) + "\nis the winner!", c);
+	scrColorTextShadow(viewWidth / 2, winnerTextY, "Player " + string(winner.number) + " wins!", c);
 	
 	draw_set_halign(fa_left);
 	draw_set_valign(fa_top);
