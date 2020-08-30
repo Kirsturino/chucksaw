@@ -1,4 +1,4 @@
-var plr = collision_circle(x, y, 16, oPlayer, false, true);
+var plr = collision_circle(x, y, 10, oPlayer, false, true);
 
 if (plr != noone)
 {
@@ -29,6 +29,7 @@ if (plr != noone)
 			deflectX = x;
 			deflectY = y;
 			alarm[2] = deflectFXTimer;
+			
 			plr.deflectX = x;
 			plr.deflectY = y;
 			plr.alarm[2] = deflectFXTimer;

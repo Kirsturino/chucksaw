@@ -8,9 +8,13 @@ var moveDir = point_direction(x, y, x + hsp, y + vsp);
 //Horizontal collision
 if (place_meeting(x + hsp * spd, y, oCollision))
 {
+	var jankX = 0;
 	while (!place_meeting(x + sign(hsp), y, oCollision))
 	{
 		x += sign(hsp);
+		jankX++;
+		
+		if (jankX > 100) x += 16; 
 	}
 	
 	//Reverse momentum
@@ -27,9 +31,13 @@ if (place_meeting(x + hsp * spd, y, oCollision))
 
 if (place_meeting(x + hsp * spd, y, oCollisionBallOnly))
 {
+	var jankX = 0;
 	while (!place_meeting(x + sign(hsp), y, oCollisionBallOnly))
 	{
 		x += sign(hsp);
+		jankX++;
+		
+		if (jankX > 100) x += 16; 
 	}
 	
 	//Reverse momentum
@@ -59,9 +67,14 @@ x = scrWrap(x, 0 - ballRadius, room_width + ballRadius);
 //Vertical collision
 if (place_meeting(x, y + vsp * spd, oCollision))
 {
+	var jankY = 0;
 	while (!place_meeting(x, y + sign(vsp), oCollision))
 	{
 		y += sign(vsp);
+		
+		jankY++;
+		
+		if (jankY > 100) y =+ blockSize;
 	}
 	
 	//Negate momentumm
@@ -77,9 +90,14 @@ if (place_meeting(x, y + vsp * spd, oCollision))
 
 if (place_meeting(x, y + vsp * spd, oCollisionBallOnly))
 {
+	var jankY = 0;
 	while (!place_meeting(x, y + sign(vsp), oCollisionBallOnly))
 	{
 		y += sign(vsp);
+		
+		jankY++;
+		
+		if (jankY > 100) y =+ blockSize;
 	}
 	
 	//Negate momentumm

@@ -22,10 +22,10 @@ var collY = y + lengthdir_y(catchRadius, heldDir);
 
 if (activeBall == noone)
 {
-	var collRadius = 16;
+	var collRadius = 32;
 } else
 {
-	var collRadius = activeBall.ballRadius;
+	var collRadius = activeBall.ballRadius * 1.5;
 }
 
 if (collision_circle(collX, collY, collRadius, oCollision, false, false) == noone && collision_circle(collX, collY, collRadius, oCollisionBallOnly, false, false) == noone)
