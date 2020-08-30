@@ -2,7 +2,7 @@ color = c_dkgray;
 
 //Remove player from active player list
 var index = ds_list_find_index(global.players, id);
-ds_list_delete(global.players, index);
+if (index != -1) ds_list_delete(global.players, index);
 
 //Check how many players are left alive, if only one, make that player the winner
 var size = ds_list_size(global.players);

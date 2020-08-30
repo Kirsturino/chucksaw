@@ -14,7 +14,7 @@ if (place_meeting(x + hsp * spd, y, oCollision))
 		x += sign(hsp);
 		jankX++;
 		
-		if (jankX > 100) x += 16; 
+		if (jankX > 100) x += 16 * sign(hsp); 
 	}
 	
 	//Reverse momentum
@@ -37,7 +37,7 @@ if (place_meeting(x + hsp * spd, y, oCollisionBallOnly))
 		x += sign(hsp);
 		jankX++;
 		
-		if (jankX > 100) x += 16; 
+		if (jankX > 100) x += 16 * sign(hsp); 
 	}
 	
 	//Reverse momentum
@@ -74,7 +74,7 @@ if (place_meeting(x, y + vsp * spd, oCollision))
 		
 		jankY++;
 		
-		if (jankY > 100) y =+ blockSize;
+		if (jankY > 100) y += 16 * sign(vsp);
 	}
 	
 	//Negate momentumm
@@ -97,7 +97,7 @@ if (place_meeting(x, y + vsp * spd, oCollisionBallOnly))
 		
 		jankY++;
 		
-		if (jankY > 100) y =+ blockSize;
+		if (jankY > 100) y += 16 * sign(vsp);
 	}
 	
 	//Negate momentumm
