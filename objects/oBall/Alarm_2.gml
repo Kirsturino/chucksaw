@@ -1,0 +1,1 @@
+maxDist = previousDist;

@@ -37,6 +37,8 @@ previousX = x;
 previousY = y;
 previousDist = 0;
 previousLength = 1;
+maxDist = 0;
+flickBufferLength = 5;
 alarm[0] = previousLength; 
 
 growPitch = 1;

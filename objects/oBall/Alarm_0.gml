@@ -1,7 +1,16 @@
 /// @description Keep track of some sort of momentum when held
-previousDist = point_distance(x, y, previousX, previousY);
+if (state == scrHeld)
+{
+	previousDist = point_distance(x, y, previousX, previousY);
 
-previousX = x;
-previousY = y;
+	if (previousDist > maxDist)
+	{
+		maxDist = previousDist;
+		alarm[2] = flickBufferLength;
+	}
+
+	previousX = x;
+	previousY = y;
+}
 
 alarm[0] = previousLength; 
