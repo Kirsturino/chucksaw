@@ -13,7 +13,7 @@
     "option_windows_display_cursor": false,
     "option_windows_display_name": "Chucksaw",
     "option_windows_enable_steam": false,
-    "option_windows_executable_name": "${project_name}",
+    "option_windows_executable_name": "Chucksaw",
     "option_windows_icon": "${options_dir}\\windows\\icons\\icon.ico",
     "option_windows_installer_finished": "${options_dir}\\windows\\installer\\finished.bmp",
     "option_windows_installer_header": "${options_dir}\\windows\\installer\\header.bmp",
@@ -31,7 +31,7 @@
     "option_windows_texture_page": "2048x2048",
     "option_windows_use_splash": false,
     "option_windows_version": {
-        "build": 0,
+        "build": 2,
         "major": 1,
         "minor": 0,
         "revision": 0
