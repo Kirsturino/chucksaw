@@ -447,6 +447,14 @@
             }
         },
         {
+            "Key": "42eaf826-35cf-48fe-8dc1-2cb6948e4fec",
+            "Value": {
+                "id": "e0b62721-0def-476f-89e3-2210be114551",
+                "resourcePath": "sounds\\sndPerfectThrow\\sndPerfectThrow.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "4370253f-f1ed-4080-8b94-4b901ec430ca",
             "Value": {
                 "id": "b8634cce-5960-4462-99ff-92824fffeb69",

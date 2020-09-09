@@ -27,6 +27,13 @@ if (activeBall != noone)
 			audio_play_sound(sndSawThrow, 0, false);
 			scrFreeze(60);
 			
+			if (other.kickForce == other.maxKickForce)
+			{
+				part_type_color1(global.bullyPart, other.aliveColor);
+				part_particles_create(global.partSystem, x, y, global.bullyPart, 20);
+				audio_play_sound(sndPerfectThrow, 0, false);
+			}
+			
 		}
 	}
 }
